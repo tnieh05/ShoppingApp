@@ -1,0 +1,100 @@
+body {
+	background: url("crossword.png");
+	margin: 0;
+
+}
+
+
+.header {
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	background-image: url("shoppinglogo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100px;
+	background-color: #5ad1db;
+}
+
+.heading-text p{
+	margin-top: 0;
+	text-align: center;
+	font-family: intro;
+	line-height: 350px;
+	color: white;
+}
+
+.triangle-border {
+	background-image: url("triangle.png");
+	background-size: 10px;
+	height: 8px;
+	width: 100%;
+	position: absolute;
+	top: 200px;
+}
+
+
+
+.text-input {
+	text-align: center;
+	width: 100%;
+}
+
+.text-input input {
+	text-align: center;
+	margin: 5%;
+	border-radius: 5px;
+	border: 1px solid #eee;
+	height: 30px;
+	width: 300px;
+	font-family: raleway;
+}
+
+
+
+.main {
+	width: 380px;
+	text-align: center;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.main li {
+	padding: 0;
+	display: block;
+	margin: 10px;
+}
+
+.main ul {
+	list-style: none;
+	margin: 3% auto;
+	padding: 0 10%;
+
+}
+
+ul li {
+	display: inline;
+	padding: 0 20%;
+}
+
+.fa-check-circle {
+	margin: 0 10%;
+}
+
+
+.text-input button {
+	font-family: raleway;
+	width: 70px;
+	height: 30px;
+	border: 1px solid white;
+	background-color: #5ad1db;
+	color: white;
+}
+
+.clicked {
+	color: #67dd58;
+}
+
+
+
+
