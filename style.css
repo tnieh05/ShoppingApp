@@ -1,9 +1,7 @@
 body {
 	background: url("crossword.png");
 	margin: 0;
-
 }
-
 
 .header {
 	width: 100%;
@@ -38,18 +36,18 @@ body {
 .text-input {
 	text-align: center;
 	width: 100%;
+
 }
 
 .text-input input {
 	text-align: center;
-	margin: 5%;
+	margin: 50px;
 	border-radius: 5px;
 	border: 1px solid #eee;
 	height: 30px;
 	width: 300px;
 	font-family: raleway;
 }
-
 
 
 .main {
@@ -82,7 +80,8 @@ ul li {
 }
 
 
-.text-input button {
+.text-input button,
+.clear-all button {
 	font-family: raleway;
 	width: 70px;
 	height: 30px;
@@ -91,10 +90,20 @@ ul li {
 	color: white;
 }
 
+#get:active,
+#clear:active {
+	background-color: #40b4bd;
+}
+
 .clicked {
 	color: #67dd58;
 }
 
+.clear-all {
+	text-align: center;
+}
 
-
+input, button {
+ outline:none;
+}
 
