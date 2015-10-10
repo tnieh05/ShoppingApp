@@ -30,8 +30,6 @@ function postItem(){
 	var addItems = $("<li>" + check + textInput + removeItem + "</li>");
 	$(".list").append(addItems);
 	
-	
-
 };
 
 //Toggles the check mark on and off
